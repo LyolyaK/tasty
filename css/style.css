@@ -1,0 +1,2757 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=El+Messiri:wght@400..700&family=Yeseva+One&display=swap');
+body {
+    margin: 0;
+    font-family: "El Messiri", sans-serif;;
+    color: #6C4E31;
+    height: 100vh; 
+background-color: rgb(21, 15, 15);
+}
+h3{
+    text-align: center;
+}
+.frev{
+    height: 88vh; 
+    background-color: #FFDBB5;
+    display: flex;
+    justify-content: center;
+
+}
+.reviews {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+.revh h1 {
+    text-align: center;
+}
+.review {
+    display: none;
+    margin: 20px 0;
+}
+.active {
+    display: block;
+}
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header {
+    background-color: #603F26;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+}
+
+.logo {
+    margin-right: auto; 
+    background-color: transparent; 
+    border: none; 
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFEAC5;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #FFDBB5;
+}
+
+.one {
+    height: 90vh; 
+    margin-top: 100px; 
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -30px;
+}
+.contone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contone h1 {
+    font-size: 2.5em;
+    color: #FFDBB5;
+    margin-top: 300px;
+}
+
+.contone h2 {
+    font-size: 1.5em;
+    color: #FFEAC5;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+button {
+    background-color: #FFDBB5;
+    color: #603F26;
+    border: none;
+    padding: 15px 16px; 
+    font-size: 0.9em; 
+    border-radius: 12px; 
+    width: 200px;
+}
+
+button:hover {
+    background-color: #FFEAC5;
+}
+.achievements{
+    height: 88vh; 
+    background-color: #FFDBB5;
+}
+.achievements h1 {
+    font-size: 2.5em;
+    padding-top: 50px;
+    text-align: center;
+}
+.contwo{
+    position: relative;
+    height: 400px;
+    background-color: #d39e64;
+    margin-top: 40px;
+    opacity: 70%;
+}
+.numbers{
+    position: relative;
+    color: #FFDBB5;
+display: flex;
+font-size:13em ;
+padding: 80px;
+justify-content: space-between;
+opacity: 75%;
+z-index: 1;
+}
+.three{
+   padding-right: 250px;
+}
+.first{
+    padding-left: 50px;
+}
+.ch1 {
+    position: absolute;
+    top: 53%; 
+    left: 21%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 280px;
+    height: auto; 
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby1 {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.c1 {
+    left: 0%;
+    margin: 0; 
+    padding-right: 10px; 
+    width: 50px;
+}
+
+.ch1 h3 {
+    color: #180e07;
+    margin: 0; 
+}
+
+.ch1 p {
+    color: #180e07;
+    margin-top: 0; 
+    padding-top: 10px; 
+}
+.ch2 {
+    position: absolute;
+    top: 53%; 
+    left: 52%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 280px;
+    height: auto; 
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby2 {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.c2 {
+    left: 0%;
+    margin: 0; 
+    padding-right: 10px; 
+    width: 50px;
+}
+
+.ch2 h3 {
+    color: #180e07;
+    margin: 0; 
+}
+
+.ch2 p {
+    color: #180e07;
+    margin-top: 0; 
+    padding-top: 10px; 
+}
+.ch3 {
+    position: absolute;
+    top: 53%;
+    left: 84%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 280px;
+    height: auto; 
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby3 {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.c3 {
+    left: 0%;
+    margin: 0; 
+    padding-right: 10px; 
+    width: 50px;
+}
+
+.ch3 h3 {
+    color: #180e07;
+    margin: 0; 
+}
+
+.ch3 p {
+    color: #180e07;
+    margin-top: 0; 
+    padding-top: 10px; 
+}
+
+.online{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    
+    row-gap: 90px;
+    height: 88vh; 
+    background-color: #180e07; 
+    color: #FFDBB5;
+}
+.online img {
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+}
+.shop{
+    grid-area: 1/1/span 1/span 2;
+    padding-left: 50px;
+    font-size:1.3em;
+   
+}
+
+.cakes{
+    grid-area: 1/3/span 1/span 1;
+    display: flex;
+
+}
+.t{
+    display: none;
+    width: 250px;
+    height: 300px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    margin-top: 50px;
+}
+.cakes:hover{
+    grid-area: 1/3/span 1/span 1;
+    
+
+}
+.cakes:hover .cakimg{
+    display: none;
+
+}
+.cakes:hover .caktext{
+    display: none;
+
+}
+.cakes:hover .t{
+    grid-area: 1/3/span 1/span 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+.cakimg{
+    position: absolute;
+    z-index: 0;
+
+}
+.caktext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+.croissant{
+    grid-area: 1/4/span 1/span 1; 
+    display: flex;
+}
+
+.croissant:hover{
+    grid-area: 1/4/span 1/span 1; 
+    
+
+}
+.croissant:hover .croimg{
+    display: none;
+
+}
+.croissant:hover .croitext{
+    display: none;
+
+}
+.croissant:hover .t{
+    grid-area: 1/3/span 1/span 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+
+.croimg{
+    position: absolute;
+    z-index: 0;
+}
+.croitext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+.desserts{
+    grid-area: 1/5/span 1/span 1; 
+    display: flex;
+}
+.desserts:hover{
+    grid-area: 1/5/span 1/span 1;
+    
+
+}
+.desserts:hover .desimg{
+    display: none;
+
+}
+.desserts:hover .destext{
+    display: none;
+
+}
+.desserts:hover .t{
+    grid-area: 1/5/span 1/span 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+.desimg{
+    position: absolute;
+    z-index: 0;
+}
+.destext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+.breakfast{
+    grid-area: 2/3/span 1/span 1;  
+    display: flex;
+}
+.breakfast:hover{
+    grid-area: 2/3/span 1/span 1;
+    
+
+}
+.breakfast:hover .brimg{
+    display: none;
+
+}
+.breakfast:hover .breaktext{
+    display: none;
+
+}
+.breakfast:hover .t{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+.brimg{
+    position: absolute;
+    z-index: 0;
+}
+.breaktext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+.drink{
+    grid-area: 2/4/span 1/span 1;  
+    display: flex;
+}
+.drink:hover{
+    grid-area: 2/4/span 1/span 1; 
+    
+
+}
+.drink:hover .drimg{
+    display: none;
+
+}
+.drink:hover .drtext{
+    display: none;
+
+}
+.drink:hover .t{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+.drimg{
+    position: absolute;
+    z-index: 0;
+}
+.drtext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+
+.bon{
+    grid-area: 2/5/span 1/span 1;  
+    display: flex;
+}
+.bon:hover{
+    grid-area: 2/5/span 1/span 1;  
+    
+
+}
+.bon:hover .bonimg{
+    display: none;
+
+}
+.bon:hover .bontext{
+    display: none;
+
+}
+.bon:hover .t{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDBB5;
+    color: #180e07;
+}
+.bonimg{
+    position: absolute;
+    z-index: 0;
+}
+.bontext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding: 20px;
+    background-color: #FFDBB5;
+    color: #180e07;
+    z-index: 1;
+    top: 300px;
+    left: 0px;
+    
+}
+@media(max-width: 1270px){
+    body{
+        width: 100vw;
+       }
+        .header {
+width: 100vw;
+        }
+        .navigation{
+            width: 100%;
+            
+        }
+        .achievements {
+            height: 80vh; 
+
+        }
+        .contwo{
+            position: relative;
+            height: 540px;
+            background-color: #d39e64;
+            margin-top: 20px;
+            opacity: 70%;
+
+        }
+        .numbers {
+            display: flex;
+            flex-direction: column;
+            font-size: 4.0em;
+            padding: 20px;
+        }
+        .first{
+            padding-top: 10px;
+            font-size:1.5em; 
+            padding-left: 250px;
+        }
+        .two{
+            padding-left: 250px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .three{
+            padding-left: 250px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .ch1, .ch2, .ch3 {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            
+        }
+        .ch1 {
+            position: absolute;
+            top: 20%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch2 {
+            position: absolute;
+            top: 48%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch3 {
+            position: absolute;
+            top: 80%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em;
+        }
+        .online{
+            display: grid;
+            grid-template-columns: 33.3% 33.3%;
+            grid-template-rows: 33.3% 33.3% 33.3% 33.3% ;
+            height: 150vh; 
+            
+           row-gap: 10px;
+           background-color: #180e07; 
+           color: #FFDBB5;
+    
+        }  
+        .online img {
+            width: 330px;
+            height: 380px;
+            margin-top: -80px;
+            padding-left: 35px;
+            padding-bottom: 50px;
+        }
+        .t{
+            display: none;
+            width: 330px;
+            height: 380px;
+            background-color: #FFDBB5;
+            color: #180e07;
+            margin-top: -30px;
+            margin-left: 35px;
+            margin-bottom: 50px;
+            font-size: 1.3em;
+        }
+        .shop{
+            grid-area: 1/1/span 1/span 2;
+            padding-left: 50px;
+            font-size:1.5em;
+            padding-top: 50px;
+        }
+        .shop h1{
+            font-size:1.7em;
+            margin-top: -30px;
+        }
+        .cakes{
+            grid-area: 2/1/span 1/span 1;
+            
+        }
+        .cakes:hover{
+            grid-area: 2/1/span 1/span 1;
+            
+        
+        }
+        .cakes:hover .cakimg{
+            display: none;
+        
+        }
+        .cakes:hover .caktext{
+            display: none;
+        
+        }
+        .cakes:hover .t{
+            grid-area: 2/1/span 1/span 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .caktext{
+            top: 300px;
+            left: 35px;
+            
+        }
+        .croissant{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+        }
+        .croissant:hover{
+            grid-area: 2/2/span 1/span 1; 
+            
+        
+        }
+        .croissant:hover .croimg{
+            display: none;
+        
+        }
+        .croissant:hover .croitext{
+            display: none;
+        
+        }
+        .croissant:hover .t{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .croitext{
+            top: 300px;
+            left: 35px;
+        }
+        .desserts{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+        }
+        .desserts:hover{
+            grid-area: 2/3/span 1/span 1;  
+            
+        
+        }
+        .desserts:hover .desimg{
+            display: none;
+        
+        }
+        .desserts:hover .destext{
+            display: none;
+        
+        }
+        .desserts:hover .t{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .destext{
+            top: 300px;
+            left: 35px;
+        }
+        .breakfast{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+        }
+        .breakfast:hover{
+            grid-area: 3/1/span 1/span 1;   
+            
+        
+        }
+        .breakfast:hover .brimg{
+            display: none;
+        
+        }
+        .breakfast:hover .breaktext{
+            display: none;
+        
+        }
+        .breakfast:hover .t{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .breaktext{
+            top: 300px;
+            left: 35px; 
+        }
+        .drink{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+        }
+        .drink:hover{
+            grid-area: 3/2/span 1/span 1;  
+            
+        
+        }
+        .drink:hover .drimg{
+            display: none;
+        
+        }
+        .drink:hover .drtext{
+            display: none;
+        
+        }
+        .drink:hover .t{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .drtext{
+            top: 300px;
+            left: 35px; 
+        }
+        .bon{
+            grid-area: 3/3/span 1/span 1;  
+            display: flex;
+        }
+        .bon:hover{
+            grid-area: 3/3/span 1/span 1;   
+            
+        
+        }
+        .bon:hover .bonimg{
+            display: none;
+        
+        }
+        .bon:hover .bontext{
+            display: none;
+        
+        }
+        .bon:hover .t{
+            grid-area: 3/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .bontext{
+            top: 300px;
+            left: 35px;
+        }
+}
+@media(max-width: 1110px){
+    body{
+        width: 100vw;
+       }
+        .header {
+width: 100vw;
+        }
+        .navigation{
+            width: 100%;
+            
+        }
+        .achievements {
+            height: 80vh; 
+
+        }
+        .contwo{
+            position: relative;
+            height: 540px;
+            background-color: #d39e64;
+            margin-top: 20px;
+            opacity: 70%;
+
+        }
+        .numbers {
+            display: flex;
+            flex-direction: column;
+            font-size: 4.0em;
+            padding: 20px;
+        }
+        .first{
+            padding-top: 10px;
+            font-size:1.5em; 
+            padding-left: 150px;
+        }
+        .two{
+            padding-left: 150px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .three{
+            padding-left: 150px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .ch1, .ch2, .ch3 {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            
+        }
+        .ch1 {
+            position: absolute;
+            top: 20%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch2 {
+            position: absolute;
+            top: 48%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch3 {
+            position: absolute;
+            top: 80%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em;
+        }
+        .online{
+            display: grid;
+            grid-template-columns: 33.3% 33.3%;
+            grid-template-rows: 33.3% 33.3% 33.3% 33.3% ;
+            height: 100vh; 
+           row-gap: 10px;
+           background-color: #180e07; 
+           color: #FFDBB5;
+           
+    
+        }  
+        .online img {
+            width: 280px;
+            height: 330px;
+            margin-top: -50px;
+            padding-left: 35px;
+            padding-bottom: 50px;
+        }
+        .t{
+            display: none;
+            width: 280px;
+            height: 330px;
+            background-color: #FFDBB5;
+            color: #180e07;
+            margin-top: 0px;
+            margin-left: 35px;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+        .shop{
+            grid-area: 1/1/span 1/span 2;
+            padding-left: 50px;
+            font-size:1.3em;
+            padding-top: 50px;
+        }
+        .shop h1{
+            font-size:3.2em;
+            margin-top: -30px;
+        }
+        .cakes{
+            grid-area: 2/1/span 1/span 1;
+            
+        }
+        .cakes:hover{
+            grid-area: 2/1/span 1/span 1;
+            
+        
+        }
+        .cakes:hover .cakimg{
+            display: none;
+        
+        }
+        .cakes:hover .caktext{
+            display: none;
+        
+        }
+        .cakes:hover .t{
+            grid-area: 2/1/span 1/span 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .caktext{
+            top: 280px;
+            left: 35px;
+            
+        }
+        .croissant{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+        }
+        .croissant:hover{
+            grid-area: 2/2/span 1/span 1; 
+            
+        
+        }
+        .croissant:hover .croimg{
+            display: none;
+        
+        }
+        .croissant:hover .croitext{
+            display: none;
+        
+        }
+        .croissant:hover .t{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .croitext{
+            top: 280px;
+            left: 35px;
+        }
+        .desserts{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+        }
+        .desserts:hover{
+            grid-area: 2/3/span 1/span 1;  
+            
+        
+        }
+        .desserts:hover .desimg{
+            display: none;
+        
+        }
+        .desserts:hover .destext{
+            display: none;
+        
+        }
+        .desserts:hover .t{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .destext{
+            top: 280px;
+            left: 35px;
+        }
+        .breakfast{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+        }
+        .breakfast:hover{
+            grid-area: 3/1/span 1/span 1;   
+            
+        
+        }
+        .breakfast:hover .brimg{
+            display: none;
+        
+        }
+        .breakfast:hover .breaktext{
+            display: none;
+        
+        }
+        .breakfast:hover .t{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .breaktext{
+            top: 280px;
+            left: 35px; 
+        }
+        .drink{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+        }
+        .drink:hover{
+            grid-area: 3/2/span 1/span 1;  
+            
+        
+        }
+        .drink:hover .drimg{
+            display: none;
+        
+        }
+        .drink:hover .drtext{
+            display: none;
+        
+        }
+        .drink:hover .t{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .drtext{
+            top: 280px;
+            left: 35px; 
+        }
+        .bon{
+            grid-area: 3/3/span 1/span 1;  
+            display: flex;
+        }
+        .bon:hover{
+            grid-area: 3/3/span 1/span 1;   
+            
+        
+        }
+        .bon:hover .bonimg{
+            display: none;
+        
+        }
+        .bon:hover .bontext{
+            display: none;
+        
+        }
+        .bon:hover .t{
+            grid-area: 3/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .bontext{
+            top: 280px;
+            left: 35px;
+        }
+}
+@media(max-width: 940px){
+    body{
+        width: 100vw;
+       }
+        .header {
+width: 100vw;
+        }
+        .navigation{
+            width: 100%;
+            
+        }
+        .achievements {
+            height: 80vh; 
+
+        }
+        .contwo{
+            position: relative;
+            height: 540px;
+            background-color: #d39e64;
+            margin-top: 20px;
+            opacity: 70%;
+
+        }
+        .numbers {
+            display: flex;
+            flex-direction: column;
+            font-size: 4.0em;
+            padding: 20px;
+        }
+        .first{
+            padding-top: 10px;
+            font-size:1.5em; 
+            padding-left: 100px;
+        }
+        .two{
+            padding-left: 100px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .three{
+            padding-left: 100px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .ch1, .ch2, .ch3 {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            
+        }
+        .ch1 {
+            position: absolute;
+            top: 20%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch2 {
+            position: absolute;
+            top: 48%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em; 
+        }
+        .ch3 {
+            position: absolute;
+            top: 80%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 580px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:1em;
+        }
+        .online{
+            display: grid;
+            grid-template-columns: 33.3% 33.3%;
+            grid-template-rows: 33.3% 33.3% 33.3% 33.3% ;
+            height: 150vh; 
+           row-gap: 10px;
+           background-color: #180e07; 
+           color: #FFDBB5;
+           
+    
+        }  
+        .online img {
+            width: 250px;
+            height: 300px;
+            margin-top: -80px;
+            padding-left: 35px;
+            padding-bottom: 50px;
+        }
+        .t{
+            display: none;
+            width: 250px;
+            height: 300px;
+            background-color: #FFDBB5;
+            color: #180e07;
+            margin-top: -30px;
+            margin-left: 35px;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+        .shop{
+            grid-area: 1/1/span 1/span 2;
+            padding-left: 50px;
+            font-size:1em;
+            padding-top: 50px;
+        }
+        .shop h1{
+            font-size:3em;
+            margin-top: -30px;
+        }
+        .cakes{
+            grid-area: 2/1/span 1/span 1;
+            
+        }
+        .cakes:hover{
+            grid-area: 2/1/span 1/span 1;
+            
+        
+        }
+        .cakes:hover .cakimg{
+            display: none;
+        
+        }
+        .cakes:hover .caktext{
+            display: none;
+        
+        }
+        .cakes:hover .t{
+            grid-area: 2/1/span 1/span 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .caktext{
+            top: 220px;
+            left: 35px;
+            
+        }
+        .croissant{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+        }
+        .croissant:hover{
+            grid-area: 2/2/span 1/span 1; 
+            
+        
+        }
+        .croissant:hover .croimg{
+            display: none;
+        
+        }
+        .croissant:hover .croitext{
+            display: none;
+        
+        }
+        .croissant:hover .t{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .croitext{
+            top: 220px;
+            left: 35px;
+        }
+        .desserts{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+        }
+        .desserts:hover{
+            grid-area: 2/3/span 1/span 1;  
+            
+        
+        }
+        .desserts:hover .desimg{
+            display: none;
+        
+        }
+        .desserts:hover .destext{
+            display: none;
+        
+        }
+        .desserts:hover .t{
+            grid-area: 2/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .destext{
+            top: 220px;
+            left: 35px;
+        }
+        .breakfast{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+        }
+        .breakfast:hover{
+            grid-area: 3/1/span 1/span 1;   
+            
+        
+        }
+        .breakfast:hover .brimg{
+            display: none;
+        
+        }
+        .breakfast:hover .breaktext{
+            display: none;
+        
+        }
+        .breakfast:hover .t{
+            grid-area: 3/1/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .breaktext{
+            top: 220px;
+            left: 35px; 
+        }
+        .drink{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+        }
+        .drink:hover{
+            grid-area: 3/2/span 1/span 1;  
+            
+        
+        }
+        .drink:hover .drimg{
+            display: none;
+        
+        }
+        .drink:hover .drtext{
+            display: none;
+        
+        }
+        .drink:hover .t{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .drtext{
+            top: 220px;
+            left: 35px; 
+        }
+        .bon{
+            grid-area: 3/3/span 1/span 1;  
+            display: flex;
+        }
+        .bon:hover{
+            grid-area: 3/3/span 1/span 1;   
+            
+        
+        }
+        .bon:hover .bonimg{
+            display: none;
+        
+        }
+        .bon:hover .bontext{
+            display: none;
+        
+        }
+        .bon:hover .t{
+            grid-area: 3/3/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .bontext{
+            top: 220px;
+            left: 35px;
+        }
+}
+@media(max-width: 870px){
+    body{
+        width: 100vw;
+       }
+        .header {
+width: 100vw;
+        }
+        .navigation{
+            width: 100%;
+            
+        }
+        .achievements {
+            height: 80vh; 
+
+        }
+        .contwo{
+            position: relative;
+            height: 540px;
+            background-color: #d39e64;
+            margin-top: 20px;
+            opacity: 70%;
+
+        }
+        .numbers {
+            display: flex;
+            flex-direction: column;
+            font-size: 4.0em;
+            padding: 20px;
+        }
+        .first{
+            padding-top: 10px;
+            font-size:1.5em; 
+            padding-left: 50px;
+        }
+        .two{
+            padding-left: 50px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .three{
+            padding-left: 50px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .ch1, .ch2, .ch3 {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            
+        }
+        .ch1 {
+            position: absolute;
+            top: 20%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em; 
+        }
+        .ch2 {
+            position: absolute;
+            top: 48%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em; 
+        }
+        .ch3 {
+            position: absolute;
+            top: 80%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em;
+        }
+        .online{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 25% 25% 25% 25% ;
+            width: 596px;
+            height: 150vh; 
+            gap: 100px;
+           row-gap: 10px;
+           background-color: #180e07; 
+           color: #FFDBB5;
+    
+        }  
+        .online img {
+            width: 230px;
+            height: 280px;
+            margin-top: -80px;
+            padding-left: 90px;
+            padding-bottom: 50px;
+        }
+        .t{
+            display: none;
+            width: 230px;
+            height: 280px;
+            background-color: #FFDBB5;
+            color: #180e07;
+            margin-top: -30px;
+            margin-left: 90px;
+            margin-bottom: 50px;
+            font-size: 1em;
+        }
+        .shop{
+            grid-area: 1/1/span 1/span 2;
+            padding-left: 50px;
+            font-size:1.3em;
+            padding-top: 50px;
+        }
+        .shop h1{
+            font-size:2em;
+            margin-top: -30px;
+        }
+        .cakes{
+            grid-area: 2/1/span 1/span 1;
+            
+        }
+        .cakes:hover{
+            grid-area: 2/1/span 1/span 1;
+            
+        
+        }
+        .cakes:hover .cakimg{
+            display: none;
+        
+        }
+        .cakes:hover .caktext{
+            display: none;
+        
+        }
+        .cakes:hover .t{
+            grid-area: 2/1/span 1/span 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .caktext{
+            top: 200px;
+            left: 90px;
+            
+        }
+        .croissant{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+        }
+        .croissant:hover{
+            grid-area: 2/2/span 1/span 1; 
+            
+        
+        }
+        .croissant:hover .croimg{
+            display: none;
+        
+        }
+        .croissant:hover .croitext{
+            display: none;
+        
+        }
+        .croissant:hover .t{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .croitext{
+            top: 200px;
+            left: 90px;
+        }
+        .desserts{
+            grid-area: 3/1/span 1/span 1; 
+            display: flex;
+        }
+        .desserts:hover{
+            grid-area: 3/1/span 1/span 1;  
+            
+        
+        }
+        .desserts:hover .desimg{
+            display: none;
+        
+        }
+        .desserts:hover .destext{
+            display: none;
+        
+        }
+        .desserts:hover .t{
+            grid-area: 3/1/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .destext{
+            top: 200px;
+            left: 90px;
+        }
+        .breakfast{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+        }
+        .breakfast:hover{
+            grid-area: 3/2/span 1/span 1;   
+            
+        
+        }
+        .breakfast:hover .brimg{
+            display: none;
+        
+        }
+        .breakfast:hover .breaktext{
+            display: none;
+        
+        }
+        .breakfast:hover .t{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .breaktext{
+            top: 200px;
+            left: 90px; 
+        }
+        .drink{
+            grid-area: 4/1/span 1/span 1;  
+            display: flex;
+        }
+        .drink:hover{
+            grid-area: 4/1/span 1/span 1;  
+            
+        
+        }
+        .drink:hover .drimg{
+            display: none;
+        
+        }
+        .drink:hover .drtext{
+            display: none;
+        
+        }
+        .drink:hover .t{
+            grid-area: 4/1/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .drtext{
+            top: 200px;
+            left: 90px; 
+        }
+        .bon{
+            grid-area: 4/2/span 1/span 1;  
+            display: flex;
+        }
+        .bon:hover{
+            grid-area: 4/2/span 1/span 1;   
+            
+        
+        }
+        .bon:hover .bonimg{
+            display: none;
+        
+        }
+        .bon:hover .bontext{
+            display: none;
+        
+        }
+        .bon:hover .t{
+            grid-area: 4/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .bontext{
+            top: 200px;
+            left: 90px;
+        }
+}
+@media(max-width: 780px){
+    body{
+        width: 100vw;
+       }
+        .header {
+width: 100vw;
+        }
+        .navigation{
+            width: 100%;
+            
+        }
+        .achievements {
+            height: 80vh; 
+
+        }
+        .contwo{
+            position: relative;
+            height: 540px;
+            background-color: #d39e64;
+            margin-top: 20px;
+            opacity: 70%;
+
+        }
+        .numbers {
+            display: flex;
+            flex-direction: column;
+            font-size: 4.0em;
+            padding: 20px;
+        }
+        .first{
+            padding-top: 10px;
+            font-size:1.5em; 
+            padding-left: 50px;
+        }
+        .two{
+            padding-left: 50px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .three{
+            padding-left: 50px;
+            padding-top: 10px;
+            font-size:1.5em 
+        }
+        .ch1, .ch2, .ch3 {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            
+        }
+        .ch1 {
+            position: absolute;
+            top: 20%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em; 
+        }
+        .ch2 {
+            position: absolute;
+            top: 48%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em; 
+        }
+        .ch3 {
+            position: absolute;
+            top: 80%; 
+            left: 61%; 
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            width: 280px;
+            height: auto; 
+            z-index: 2;
+            padding-left: 0;
+            font-size:0.8em;
+        }
+        .online{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 25% 25% 25% 25% ;
+            width: 596px;
+            height: 150vh; 
+            gap: 100px;
+           row-gap: 10px;
+           background-color: #180e07; 
+           color: #FFDBB5;
+    
+        }  
+        .online img {
+            width: 230px;
+            height: 280px;
+            margin-top: -80px;
+            padding-left: 70px;
+            padding-bottom: 50px;
+        }
+        .t{
+            display: none;
+            width: 230px;
+            height: 280px;
+            background-color: #FFDBB5;
+            color: #180e07;
+            margin-top: -30px;
+            margin-left: 70px;
+            margin-bottom: 50px;
+            font-size: 1em;
+        }
+        .shop{
+            grid-area: 1/1/span 1/span 2;
+            padding-left: 50px;
+            font-size:1.3em;
+            padding-top: 50px;
+        }
+        .shop h1{
+            font-size:2em;
+            margin-top: -30px;
+        }
+        .cakes{
+            grid-area: 2/1/span 1/span 1;
+            
+        }
+        .cakes:hover{
+            grid-area: 2/1/span 1/span 1;
+            
+        
+        }
+        .cakes:hover .cakimg{
+            display: none;
+        
+        }
+        .cakes:hover .caktext{
+            display: none;
+        
+        }
+        .cakes:hover .t{
+            grid-area: 2/1/span 1/span 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .caktext{
+            top: 200px;
+            left: 70px;
+            
+        }
+        .croissant{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+        }
+        .croissant:hover{
+            grid-area: 2/2/span 1/span 1; 
+            
+        
+        }
+        .croissant:hover .croimg{
+            display: none;
+        
+        }
+        .croissant:hover .croitext{
+            display: none;
+        
+        }
+        .croissant:hover .t{
+            grid-area: 2/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .croitext{
+            top: 200px;
+            left: 70px;
+        }
+        .desserts{
+            grid-area: 3/1/span 1/span 1; 
+            display: flex;
+        }
+        .desserts:hover{
+            grid-area: 3/1/span 1/span 1;  
+            
+        
+        }
+        .desserts:hover .desimg{
+            display: none;
+        
+        }
+        .desserts:hover .destext{
+            display: none;
+        
+        }
+        .desserts:hover .t{
+            grid-area: 3/1/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .destext{
+            top: 200px;
+            left: 70px;
+        }
+        .breakfast{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+        }
+        .breakfast:hover{
+            grid-area: 3/2/span 1/span 1;   
+            
+        
+        }
+        .breakfast:hover .brimg{
+            display: none;
+        
+        }
+        .breakfast:hover .breaktext{
+            display: none;
+        
+        }
+        .breakfast:hover .t{
+            grid-area: 3/2/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .breaktext{
+            top: 200px;
+            left: 70px; 
+        }
+        .drink{
+            grid-area: 4/1/span 1/span 1;  
+            display: flex;
+        }
+        .drink:hover{
+            grid-area: 4/1/span 1/span 1;  
+            
+        
+        }
+        .drink:hover .drimg{
+            display: none;
+        
+        }
+        .drink:hover .drtext{
+            display: none;
+        
+        }
+        .drink:hover .t{
+            grid-area: 4/1/span 1/span 1;  
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .drtext{
+            top: 200px;
+            left: 70px; 
+        }
+        .bon{
+            grid-area: 4/2/span 1/span 1;  
+            display: flex;
+        }
+        .bon:hover{
+            grid-area: 4/2/span 1/span 1;   
+            
+        
+        }
+        .bon:hover .bonimg{
+            display: none;
+        
+        }
+        .bon:hover .bontext{
+            display: none;
+        
+        }
+        .bon:hover .t{
+            grid-area: 4/2/span 1/span 1; 
+            display: flex;
+            flex-direction: column;
+            background-color: #FFDBB5;
+            color: #180e07;
+        }
+        .bontext{
+            top: 200px;
+            left: 70px;
+        }
+}
+@media(max-width: 480px) {
+   body{
+    width: 100vw;
+   }
+    .header {
+        height: 70px;
+        width: 546px;
+        padding-right: 50px;
+    ;
+
+    }
+.navigation{
+    width: 100%;
+    
+}
+    .navigation li {
+        margin-left: 10px;
+        margin-right: 55px;
+        font-size: 13px;
+    }
+.one{
+    width: 596px;
+    
+    
+}
+    .contone h1 {
+        font-size: 1.8em;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .contone h2 {
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 150px;
+        font-size: 0.8em;
+    }
+    .achievements {
+        width: 546px;
+        height: 80vh; 
+        padding-right: 50px;
+    }
+    .achievements h1 {
+        font-size: 1.8em;
+        padding-left: 20px;
+        padding-top:15px;
+    }
+    .contwo{
+        position: relative;
+        height: 540px;
+        background-color: #d39e64;
+        margin-top: 20px;
+        opacity: 70%;
+        margin-left: 50px;
+    }
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        font-size: 3.4em;
+        padding: 20px;
+    }
+    .first{
+        padding-top: 50px;
+        font-size:1.5em 
+    }
+    .two{
+        padding-left: 50px;
+        padding-top: 30px;
+        font-size:1.5em 
+    }
+    .three{
+        padding-left: 50px;
+        padding-top: 50px;
+        font-size:1.5em 
+    }
+    .ch1, .ch2, .ch3 {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        
+    }
+    .ch1 {
+        position: absolute;
+        top: 20%; 
+        left: 71%; 
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        width: 280px;
+        height: auto; 
+        z-index: 2;
+        padding-left: 0;
+        font-size:0.8em 
+    }
+    .ch2 {
+        position: absolute;
+        top: 48%; 
+        left: 71%; 
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        width: 280px;
+        height: auto; 
+        z-index: 2;
+        padding-left: 0;
+        font-size:0.8em 
+    }
+    .ch3 {
+        position: absolute;
+        top: 80%; 
+        left: 71%; 
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        width: 280px;
+        height: auto; 
+        z-index: 2;
+        padding-left: 0;
+        font-size:0.8em;
+    }
+    .online{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25% ;
+        width: 596px;
+        height: 150vh; 
+        gap: 0;
+       row-gap: 10px;
+       background-color: #180e07; 
+       color: #FFDBB5;
+
+    }  
+    .online img {
+        width: 230px;
+        height: 280px;
+        margin-top: -80px;
+        padding-left: 35px;
+        padding-bottom: 50px;
+    }
+    .t{
+        display: none;
+        width: 230px;
+        height: 280px;
+        background-color: #FFDBB5;
+        color: #180e07;
+        margin-top: -30px;
+        margin-left: 35px;
+        margin-bottom: 50px;
+        font-size: 1em;
+    }
+    .shop{
+        grid-area: 1/1/span 1/span 2;
+        padding-left: 50px;
+        font-size:1em;
+        padding-top: 50px;
+    }
+    .shop h1{
+        font-size:1.7em;
+        margin-top: -30px;
+    }
+    .cakes{
+        grid-area: 2/1/span 1/span 1;
+        
+    }
+    .cakes:hover{
+        grid-area: 2/1/span 1/span 1;
+        
+    
+    }
+    .cakes:hover .cakimg{
+        display: none;
+    
+    }
+    .cakes:hover .caktext{
+        display: none;
+    
+    }
+    .cakes:hover .t{
+        grid-area: 2/1/span 1/span 1;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .caktext{
+        top: 200px;
+        left: 35px;
+        
+    }
+    .croissant{
+        grid-area: 2/2/span 1/span 1; 
+        display: flex;
+    }
+    .croissant:hover{
+        grid-area: 2/2/span 1/span 1; 
+        
+    
+    }
+    .croissant:hover .croimg{
+        display: none;
+    
+    }
+    .croissant:hover .croitext{
+        display: none;
+    
+    }
+    .croissant:hover .t{
+        grid-area: 2/2/span 1/span 1; 
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .croitext{
+        top: 200px;
+        left: 35px;
+    }
+    .desserts{
+        grid-area: 3/1/span 1/span 1; 
+        display: flex;
+    }
+    .desserts:hover{
+        grid-area: 3/1/span 1/span 1;  
+        
+    
+    }
+    .desserts:hover .desimg{
+        display: none;
+    
+    }
+    .desserts:hover .destext{
+        display: none;
+    
+    }
+    .desserts:hover .t{
+        grid-area: 3/1/span 1/span 1; 
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .destext{
+        top: 200px;
+        left: 35px;
+    }
+    .breakfast{
+        grid-area: 3/2/span 1/span 1;  
+        display: flex;
+    }
+    .breakfast:hover{
+        grid-area: 3/2/span 1/span 1;   
+        
+    
+    }
+    .breakfast:hover .brimg{
+        display: none;
+    
+    }
+    .breakfast:hover .breaktext{
+        display: none;
+    
+    }
+    .breakfast:hover .t{
+        grid-area: 3/2/span 1/span 1;  
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .breaktext{
+        top: 200px;
+        left: 35px; 
+    }
+    .drink{
+        grid-area: 4/1/span 1/span 1;  
+        display: flex;
+    }
+    .drink:hover{
+        grid-area: 4/1/span 1/span 1;  
+        
+    
+    }
+    .drink:hover .drimg{
+        display: none;
+    
+    }
+    .drink:hover .drtext{
+        display: none;
+    
+    }
+    .drink:hover .t{
+        grid-area: 4/1/span 1/span 1;  
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .drtext{
+        top: 200px;
+        left: 35px; 
+    }
+    .bon{
+        grid-area: 4/2/span 1/span 1;  
+        display: flex;
+    }
+    .bon:hover{
+        grid-area: 4/2/span 1/span 1;   
+        
+    
+    }
+    .bon:hover .bonimg{
+        display: none;
+    
+    }
+    .bon:hover .bontext{
+        display: none;
+    
+    }
+    .bon:hover .t{
+        grid-area: 4/2/span 1/span 1; 
+        display: flex;
+        flex-direction: column;
+        background-color: #FFDBB5;
+        color: #180e07;
+    }
+    .bontext{
+        top: 200px;
+        left: 35px;
+    }
+    .frev{
+        width: 576px;
+        height: 80vh; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+@media(max-width: 380px) {
+    body{
+     width: 100vw;
+    }
+     .header {
+         height: 70px;
+         width: 546px;
+         padding-right: 50px;
+     ;
+ 
+     }
+ .navigation{
+     width: 100%;
+     
+ }
+     .navigation li {
+         margin-left: 10px;
+         margin-right: 55px;
+         font-size: 13px;
+     }
+ .one{
+     width: 596px;
+     
+     
+ }
+     .contone h1 {
+         font-size: 1.8em;
+         margin-top: 150px;
+         text-align: center;
+     }
+ 
+     .contone h2 {
+         font-size: 1.2em;
+     }
+ 
+     button {
+         width: 150px;
+         font-size: 0.8em;
+     }
+     .achievements {
+         width: 546px;
+         height: 100vh; 
+         padding-right: 50px;
+     }
+     .achievements h1 {
+         font-size: 1.8em;
+         padding-left: 20px;
+         padding-top:15px;
+     }
+     .contwo{
+         position: relative;
+         height: 540px;
+         background-color: #d39e64;
+         margin-top: 20px;
+         opacity: 70%;
+         margin-left: 50px;
+     }
+     .numbers {
+         display: flex;
+         flex-direction: column;
+         font-size: 3.4em;
+         padding: 20px;
+     }
+     .first{
+         padding-top: 50px;
+         font-size:1.5em 
+     }
+     .two{
+         padding-left: 50px;
+         padding-top: 30px;
+         font-size:1.5em 
+     }
+     .three{
+         padding-left: 50px;
+         padding-top: 50px;
+         font-size:1.5em 
+     }
+     .ch1, .ch2, .ch3 {
+         display: flex;
+         flex-direction: column;
+         padding: 100px;
+         
+     }
+     .ch1 {
+         position: absolute;
+         top: 20%; 
+         left: 71%; 
+         transform: translate(-50%, -50%);
+         display: flex;
+         flex-direction: column; 
+         align-items: flex-start;
+         width: 280px;
+         height: auto; 
+         z-index: 2;
+         padding-left: 0;
+         font-size:0.8em 
+     }
+     .ch2 {
+         position: absolute;
+         top: 48%; 
+         left: 71%; 
+         transform: translate(-50%, -50%);
+         display: flex;
+         flex-direction: column; 
+         align-items: flex-start;
+         width: 280px;
+         height: auto; 
+         z-index: 2;
+         padding-left: 0;
+         font-size:0.8em 
+     }
+     .ch3 {
+         position: absolute;
+         top: 80%; 
+         left: 71%; 
+         transform: translate(-50%, -50%);
+         display: flex;
+         flex-direction: column; 
+         align-items: flex-start;
+         width: 280px;
+         height: auto; 
+         z-index: 2;
+         padding-left: 0;
+         font-size:0.8em;
+     }
+     .online{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 25% 25% 25% 25% ;
+         width: 596px;
+         height: 180vh; 
+         gap: 0;
+        row-gap: 10px;
+        background-color: #180e07; 
+        color: #FFDBB5;
+ 
+     }  
+     .online img {
+         width: 230px;
+         height: 280px;
+         margin-top: -80px;
+         padding-left: 35px;
+         padding-bottom: 50px;
+     }
+     .t{
+         display: none;
+         width: 230px;
+         height: 280px;
+         background-color: #FFDBB5;
+         color: #180e07;
+         margin-top: -30px;
+         margin-left: 35px;
+         margin-bottom: 50px;
+         font-size: 1em;
+     }
+     .shop{
+         grid-area: 1/1/span 1/span 2;
+         padding-left: 50px;
+         font-size:1em;
+         padding-top: 50px;
+     }
+     .shop h1{
+         font-size:1.7em;
+         margin-top: -30px;
+     }
+     .cakes{
+         grid-area: 2/1/span 1/span 1;
+         
+     }
+     .cakes:hover{
+         grid-area: 2/1/span 1/span 1;
+         
+     
+     }
+     .cakes:hover .cakimg{
+         display: none;
+     
+     }
+     .cakes:hover .caktext{
+         display: none;
+     
+     }
+     .cakes:hover .t{
+         grid-area: 2/1/span 1/span 1;
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .caktext{
+         top: 200px;
+         left: 35px;
+         
+     }
+     .croissant{
+         grid-area: 2/2/span 1/span 1; 
+         display: flex;
+     }
+     .croissant:hover{
+         grid-area: 2/2/span 1/span 1; 
+         
+     
+     }
+     .croissant:hover .croimg{
+         display: none;
+     
+     }
+     .croissant:hover .croitext{
+         display: none;
+     
+     }
+     .croissant:hover .t{
+         grid-area: 2/2/span 1/span 1; 
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .croitext{
+         top: 200px;
+         left: 35px;
+     }
+     .desserts{
+         grid-area: 3/1/span 1/span 1; 
+         display: flex;
+     }
+     .desserts:hover{
+         grid-area: 3/1/span 1/span 1;  
+         
+     
+     }
+     .desserts:hover .desimg{
+         display: none;
+     
+     }
+     .desserts:hover .destext{
+         display: none;
+     
+     }
+     .desserts:hover .t{
+         grid-area: 3/1/span 1/span 1; 
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .destext{
+         top: 200px;
+         left: 35px;
+     }
+     .breakfast{
+         grid-area: 3/2/span 1/span 1;  
+         display: flex;
+     }
+     .breakfast:hover{
+         grid-area: 3/2/span 1/span 1;   
+         
+     
+     }
+     .breakfast:hover .brimg{
+         display: none;
+     
+     }
+     .breakfast:hover .breaktext{
+         display: none;
+     
+     }
+     .breakfast:hover .t{
+         grid-area: 3/2/span 1/span 1;  
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .breaktext{
+         top: 200px;
+         left: 35px; 
+     }
+     .drink{
+         grid-area: 4/1/span 1/span 1;  
+         display: flex;
+     }
+     .drink:hover{
+         grid-area: 4/1/span 1/span 1;  
+         
+     
+     }
+     .drink:hover .drimg{
+         display: none;
+     
+     }
+     .drink:hover .drtext{
+         display: none;
+     
+     }
+     .drink:hover .t{
+         grid-area: 4/1/span 1/span 1;  
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .drtext{
+         top: 200px;
+         left: 35px; 
+     }
+     .bon{
+         grid-area: 4/2/span 1/span 1;  
+         display: flex;
+     }
+     .bon:hover{
+         grid-area: 4/2/span 1/span 1;   
+         
+     
+     }
+     .bon:hover .bonimg{
+         display: none;
+     
+     }
+     .bon:hover .bontext{
+         display: none;
+     
+     }
+     .bon:hover .t{
+         grid-area: 4/2/span 1/span 1; 
+         display: flex;
+         flex-direction: column;
+         background-color: #FFDBB5;
+         color: #180e07;
+     }
+     .bontext{
+         top: 200px;
+         left: 35px;
+     }
+     .frev{
+         width: 576px;
+         height: 80vh; 
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     
+ }
